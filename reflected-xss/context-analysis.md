@@ -2,7 +2,7 @@
 
 The reflected input was identified in the server-generated HTML response.
 
-Example response fragment:
+Observed response fragment:
 
 ```html
 <p>You searched for reflectiontest123</p>

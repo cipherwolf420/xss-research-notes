@@ -1,14 +1,14 @@
 
 Step 1: Context breaking tests
 
-First, harmless characters test :
+First, harmless characters test 
 
 <
 >
 "
 '
 
-Test result:
+Test result
 
 < rendered as <
 
@@ -18,7 +18,7 @@ No HTML encoding observed
 
 Step 2: Payload logic for HTML body
 
-HTML body-la:
+HTML body-la
 
 
 <script> tag valid
@@ -27,7 +27,7 @@ HTML body-la:
 JavaScript execution direct
   
 
-Payload requirements:
+Payload requirements
 
 
 No user interaction
@@ -37,7 +37,7 @@ Simple execution proof
   
 
 
-Selected payload:
+Selected payload
 
 
 <script>alert(1)</script>
